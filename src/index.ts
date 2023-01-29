@@ -8,5 +8,5 @@ const port = 80;
 app.listen(port);
 
 app.get("/", (req, res) => {
-  res.send("hello from api");
+  res.send("hello from api!");
 });
