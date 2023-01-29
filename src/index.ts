@@ -11,5 +11,5 @@ app.use(cors());
 app.listen(port);
 
 app.get("/", (req, res) => {
-  res.send("hello from api!");
+  res.json({ message: "hello from api" });
 });
